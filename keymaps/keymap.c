@@ -60,9 +60,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //,-----------------------------------------------------.                    ,----------------------------------------------------------.
         QK_BOOT, RGB_VAI, RGB_VAD, RGB_SAI, RGB_SAD, XXXXXXX,                      XXXXXXX, KC_KB_MUTE, KC_KB_VOLUME_UP, KC_KB_VOLUME_DOWN, XXXXXXX, XXXXXXX,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-      RGB_TOG, RGB_HUI, KC_BTN1, KC_WH_U, KC_BTN1, XXXXXXX,                      XXXXXXX, KC_MS_L, KC_MS_U, KC_MS_R, XXXXXXX, XXXXXXX,
+      RGB_TOG, RGB_HUI, KC_BTN2, KC_WH_U, KC_BTN1, XXXXXXX,                      KC_MS_L, KC_MS_D, KC_MS_U, KC_MS_R, XXXXXXX, XXXXXXX,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-      RGB_MOD, RGB_HUD, XXXXXXX, KC_WH_D, XXXXXXX, XXXXXXX,                      XXXXXXX, XXXXXXX,KC_MS_D , XXXXXXX, XXXXXXX, XXXXXXX,
+      RGB_MOD, RGB_HUD, XXXXXXX, KC_WH_D, XXXXXXX, XXXXXXX,                      XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
                                           KC_LGUI, _______,  KC_ENT,     KC_SPC, _______, KC_RALT
                                       //`--------------------------'  `--------------------------'
